@@ -34,10 +34,13 @@
   width: 600px;
   height: 220px;
   overflow: hidden;
+  text-overflow: ellipsis;
 
-  /*
-  Ojo esto solo funcionara para chorme
-  display: -webkit-box;
+  /* display: -webkit-box;
   -webkit-line-clamp: 8;
-  -webkit-box-orient: vertical; */
+  -webkit-box-orient: vertical;  */
+}
+
+.span {
+  font-weight: bold;
 }
